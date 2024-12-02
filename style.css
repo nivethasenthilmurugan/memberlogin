@@ -1,0 +1,179 @@
+body,h1{
+    background-color:#f0f2f5;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+.main-head{
+    color:#086bed;
+    font-size: 55px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    gap: 0px;
+    text-align: center;
+}
+.form{
+    width: 450px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h2{
+   font-size: 25px; 
+   line-height:32px ;
+   font-family:SFProDisplay-Bold, Helvetica, Arial, sans-serif ;
+   color: #1c1e21;
+   padding-top: 10px;
+}
+p{
+    color: rgb(110, 110, 110);
+    padding: 0px;
+    display: block;
+    margin: 0%;
+}
+hr{
+    color: #636364;
+    margin-bottom: 10px;
+}
+.input-div{
+    display:flex;
+}
+input:visited{
+    border-color: red;
+}
+.firstname{
+    height:25px;
+    width: 180px;
+    padding: 7px;
+    margin: 10px;
+    margin-left: 15px;
+    border:1px,#636364,solid;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: #1c1e21;
+}
+.surname{
+    height:25px;
+    margin-left: 10px;
+    width: 180px;
+    padding: 7px;
+    border:1px,#636364,solid;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.dateofbirth{
+    display: flex;
+    margin-left: 15px;
+    font-size: 15px;
+    color: rgb(90, 89, 89);
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif; 
+    padding: 5px;
+}
+.input{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.date{
+    width: 120px;
+    height: 35px;
+    border:1px,#636364,solid;
+    border-radius: 6px;
+}
+.month{
+    width: 120px;
+    height:35px;
+    border:1px,#636364,solid;
+    border-radius: 6px;
+    font-size:15px;
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif; 
+}
+
+.year{
+    width: 120px;
+    height: 35px;
+    border:1px,#636364,solid;
+    border-radius: 6px;
+    font-size:15px;
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif; 
+}
+.gender{
+    display: flex;
+    margin-left:14px;
+    font-size:15px;
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif; 
+    color: #4f5051;
+    padding: 5px;
+}
+.main-radio{
+    display:flex;
+    justify-content:space-around;
+}
+.radio-btn{
+    width: 100px;
+    height: 15px;
+    border: 1px,#636364,solid;
+    border-radius: 6px;
+    display: flex;
+    font-size: 15px;
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif; 
+    padding: 10px;
+}
+.gender-radio {
+    display: flex;
+    justify-content:end;
+    margin-left: 40px;
+}
+.gendermale-radio{
+    margin-left:50px;
+}
+.mail-text{
+    width: 410px;
+    height:30px;
+    font-size: 15px;
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif; 
+    border: 1px,#636364,solid;
+    border-radius: 6px;
+    padding:7px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+.content{
+    font-size: 13px;
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif; 
+    display:flex;
+    margin-left: 1px;
+}
+a{
+    color: #064569;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+.button{
+    width:190px;
+    height:35px;
+    background-color: rgb(5, 163, 5);
+    color: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border:none;
+    font-size:18px;
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif; 
+    text-align: center;
+    margin-top:20px;
+}
+.account{
+    color: #079fcd;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
